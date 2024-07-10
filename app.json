@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "static",
+      "bundler": "metro",
+      "build": { "babel": { "include": [ "@ui-kitten/components" ] } }
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://n"
+        }
+      ]
+    ],
+    "name": "heartb-mobile-oa",
+    "slug": "heartb-mobile-oa"
+  }
+}
